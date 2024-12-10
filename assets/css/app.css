@@ -24,7 +24,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(100deg, #001647, #001647, #001647);
+  background: linear-gradient(100deg, #FB9D2F, #FB9D2F, #FB9D2F);
   background-size: 180% 180%;
   width: 0;
   height: 25%;
@@ -133,7 +133,7 @@ ul {
 }
 
 .text-color {
-  color: #001647;
+  color: #202020;
 }
 
 .text-color-w {
@@ -172,7 +172,6 @@ ul {
 
 .page-link {
   border-radius: 0.5em;
-  background: #202020;
   padding: 0.7em 1.5em;
   box-shadow: 0 4px 30px -3px #202020;
   transition: all 0.5s ease;
@@ -184,6 +183,31 @@ ul {
   box-shadow: 0;
   color: #202020;
   border: 2px solid #202020;
+}
+
+.page-next-link {
+  border-radius: 0.5em;
+  padding: 0.7em 1.5em;
+  box-shadow: 0 4px 30px -3px #fff;
+  transition: all 0.5s ease;
+  width: max-content;
+  margin: auto;
+}
+
+.page-next-link:hover {
+  background: #202020;
+  padding: 0.7em 1.5em;
+  box-shadow: 0;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.page-next-link:hover .services-content__linkBox__link__img {
+  display: none;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 /********************   Animation formating start **********************/
@@ -214,19 +238,28 @@ ul {
 
 /********************  Identical instructions start **********************/
 
+.header__head,
+.page-link,
+.services-content {
+  background: #202020;
+}
+
+.header__head-item,
+.services-content__iTbox {
+  align-items: center;
+}
+
 /********************  Identical instructions end **********************/
 
 /********************  Header formating start **********************/
 
 .header__head {
-  background: #202020;
   padding: 1em 10em;
   justify-content: space-between;
 }
 
 .header__head-item {
   font-weight: 700;
-  align-items: center;
   padding: 0 1.5em;
   font-size: 0.9rem;
 }
@@ -295,9 +328,41 @@ ul {
 
 /********************  Hero formating end **********************/
 
-/********************  Partners formating start **********************/
+/********************  Services formating start **********************/
+.services-content {
+  padding: 9em 5em 5em 5em;
+  margin-top: -6em;
+}
 
-/********************  Partners formating end **********************/
+.services-content__iTbox {
+  padding: 2.5em 5em 0 5em;
+}
+
+.services-content__iTbox__img {
+  width: 5em;
+  height: 5em;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+.services-content__iTbox__iBox {
+  margin-left: 1.3em;
+}
+
+.services-content__iTbox__iBox__h3 {
+  margin-bottom: 0.5em;
+}
+
+.services-content__linkBox {
+  margin-top: 4em;
+}
+
+.services-content__linkBox__link__img {
+  width: 0.6em;
+  margin-left: 0.5em;
+}
+
+/********************  Services formating end **********************/
 
 /********************  Services formating start **********************/
 

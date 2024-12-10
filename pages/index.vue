@@ -4,7 +4,7 @@
     <div class="hero-content position-relative">
       <NuxtImg
         src="/img/body/hero.webp"
-        alt="Biztos Alkuszom"
+        alt="Műszaki vizsgáztatás"
         class="hero-content__img"
         height="100%"
       />
@@ -21,6 +21,134 @@
         <NuxtLink to="/" class="hero-content__tBox__link page-link text-color-w"
           >Ajánlatkérés</NuxtLink
         >
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="services-content">
+      <h2 class="text-transform-uppercase text-color-w">Szolgáltatásaink</h2>
+      <div class="services-content__iTbox d-flex">
+        <NuxtImg
+          src="/img/body/services/muszaki.svg"
+          alt="Műszaki vizsgáztatás"
+          class="services-content__iTbox__img bg-color-w"
+          height="100%"
+        />
+
+        <div class="services-content__iTbox__iBox">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+            Műszaki vizsgáztatás
+          </h3>
+          <p class="services-content__iTbox__iBox__p text-color-w m-0">
+            Minden típusú gépjármű időszakos műszaki vizsgáztatását és
+            környezetvédelmi felülvizsgálatát elvégezzük, hogy járműved mindig
+            megfeleljen a törvényi előírásoknak.
+          </p>
+        </div>
+      </div>
+      <div class="services-content__iTbox d-flex">
+        <NuxtImg
+          src="/img/body/services/elozetes.svg"
+          alt="Műszaki vizsgáztatás"
+          class="services-content__iTbox__img bg-color-w"
+          height="100%"
+        />
+
+        <div class="services-content__iTbox__iBox">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+            Előzetes átvizsgálás és felkészítés
+          </h3>
+          <p class="services-content__iTbox__iBox__p text-color-w m-0">
+            A vizsgáztatás előtt alaposan átvizsgáljuk az autódat, és szükség
+            esetén felkészítjük a műszaki vizsgára, hogy garantáltan megfeleljen
+            az elvárásoknak.
+          </p>
+        </div>
+      </div>
+      <div class="services-content__iTbox d-flex">
+        <NuxtImg
+          src="/img/body/services/eredet.svg"
+          alt="Műszaki vizsgáztatás"
+          class="services-content__iTbox__img bg-color-w"
+          height="100%"
+        />
+
+        <div class="services-content__iTbox__iBox">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+            Eredetiségvizsgálat
+          </h3>
+          <p class="services-content__iTbox__iBox__p text-color-w m-0">
+            Az eredetiségvizsgálatot is biztosítjuk, így az autó új tulajdonos
+            általi nyilvántartásba vétele gyors és problémamentes lesz.
+          </p>
+        </div>
+      </div>
+      <div class="services-content__iTbox d-flex">
+        <NuxtImg
+          src="/img/body/services/teljes.svg"
+          alt="Műszaki vizsgáztatás"
+          class="services-content__iTbox__img bg-color-w"
+          height="100%"
+        />
+
+        <div class="services-content__iTbox__iBox">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+            Teljes körű ügyintézés
+          </h3>
+          <p class="services-content__iTbox__iBox__p text-color-w m-0">
+            Az összes műszaki vizsgáztatással kapcsolatos ügyet helyben
+            intézzük, beleértve az okmányokkal kapcsolatos teendőket is.
+          </p>
+        </div>
+      </div>
+      <div class="services-content__iTbox d-flex">
+        <NuxtImg
+          src="/img/body/services/marka.svg"
+          alt="Műszaki vizsgáztatás"
+          class="services-content__iTbox__img bg-color-w"
+          height="100%"
+        />
+
+        <div class="services-content__iTbox__iBox">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+            Márkafüggetlen szervizelés
+          </h3>
+          <p class="services-content__iTbox__iBox__p text-color-w m-0">
+            Bármilyen márkájú és típusú gépjármű teljes átvizsgálását és
+            felkészítését vállaljuk, mert nálunk minden autó egyformán fontos.
+          </p>
+        </div>
+      </div>
+      <div class="services-content__iTbox d-flex">
+        <NuxtImg
+          src="/img/body/services/biztositas.svg"
+          alt="Műszaki vizsgáztatás"
+          class="services-content__iTbox__img bg-color-w"
+          height="100%"
+        />
+
+        <div class="services-content__iTbox__iBox">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+            Biztosításkötés
+          </h3>
+          <p class="services-content__iTbox__iBox__p text-color-w m-0">
+            Segítünk a biztosításkötésben is, hogy mindent egy helyen
+            elintézhess, és időt spórolhass.
+          </p>
+        </div>
+      </div>
+      <div class="services-content__linkBox">
+        <NuxtLink
+          to="/"
+          class="services-content__linkBox__link page-next-link bg-color-w text-color d-flex"
+          >Összes szolgáltatás megtekintése
+          <NuxtImg
+            src="/img/body/services/right.svg"
+            alt="Műszaki vizsgáztatás"
+            class="services-content__linkBox__link__img"
+            height="100%"
+          />
+        </NuxtLink>
       </div>
     </div>
   </section>

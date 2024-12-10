@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Műszaki vizsgaztatas',
+      title: 'Műszaki vizsgáztatás',
       htmlAttrs: {
         lang: 'hu',
       },

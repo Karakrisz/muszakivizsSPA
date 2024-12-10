@@ -17,7 +17,7 @@ const isMenuOpen = ref(false)
       <a class="header__head-item header__head-item--phone text-color-w d-flex">
         <NuxtImg
           src="/img/header/mobile.svg"
-          alt="Biztos Alkuszom"
+          alt="Műszaki vizsgáztatás"
           class="header__head-item__img"
           height="100%"
         />
@@ -26,7 +26,7 @@ const isMenuOpen = ref(false)
       <a class="header__head-item header__head-item--phone text-color-w d-flex">
         <NuxtImg
           src="/img/header/phone.svg"
-          alt="Biztos Alkuszom"
+          alt="Műszaki vizsgáztatás"
           class="header__head-item__img"
           height="100%"
         />
@@ -35,7 +35,7 @@ const isMenuOpen = ref(false)
       <a class="header__head-item header__head-item--email text-color-w d-flex">
         <NuxtImg
           src="/img/header/mail.svg"
-          alt="Biztos Alkuszom"
+          alt="Műszaki vizsgáztatás"
           class="header__head-item__img"
           height="100%"
         />
@@ -44,7 +44,7 @@ const isMenuOpen = ref(false)
       <a class="header__head-item header__head-item--hours text-color-w d-flex">
         <NuxtImg
           src="/img/header/time.svg"
-          alt="Biztos Alkuszom"
+          alt="Műszaki vizsgáztatás"
           class="header__head-item__img"
           height="100%"
         />
@@ -56,7 +56,7 @@ const isMenuOpen = ref(false)
         <a href="/" class="header-content__logo-box__link">
           <NuxtImg
             src="/img/header/logo.png"
-            alt="Biztos Alkuszom"
+            alt="Műszaki vizsgáztatás"
             class="header-content__logo-box__link__img"
             height="100%"
           />
