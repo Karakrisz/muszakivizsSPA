@@ -24,7 +24,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(100deg, #FB9D2F, #FB9D2F, #FB9D2F);
+  background: linear-gradient(100deg, #fb9d2f, #fb9d2f, #fb9d2f);
   background-size: 180% 180%;
   width: 0;
   height: 25%;
@@ -249,6 +249,13 @@ ul {
   align-items: center;
 }
 
+.hero-content__tBox,
+.about-content__tBox {
+  border-radius: 1.5em;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 2.5em 2em;
+}
+
 /********************  Identical instructions end **********************/
 
 /********************  Header formating start **********************/
@@ -314,12 +321,9 @@ ul {
 }
 
 .hero-content__tBox {
-  border-radius: 1.5em;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   width: 35em;
   bottom: 3em;
   right: 5em;
-  padding: 2.5em 2em;
 }
 
 .hero-content__tBox__p {
@@ -364,9 +368,31 @@ ul {
 
 /********************  Services formating end **********************/
 
-/********************  Services formating start **********************/
+/********************  About formating start **********************/
 
-/********************  Services formating end **********************/
+.about-content {
+  background: #f7f7f7;
+  padding: 3em 0 3em 5em;
+}
+
+.about-content__box {
+  width: 30%;
+}
+
+.about-content__iBox {
+  width: 70%;
+}
+
+.about-content__iBox__img {
+  width: 100%;
+}
+
+.about-content__tBox {
+  width: 45em;
+  top: 6em;
+}
+
+/********************  About formating end **********************/
 
 /********************  Blog formating start **********************/
 
