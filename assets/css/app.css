@@ -226,20 +226,22 @@ ul {
 
 @keyframes slideInFromBottom {
   0% {
-    transform: translateY(100%);
+    transform: translateY(100%) rotate(1.5deg);
     opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(0) rotate(1.5deg);
     opacity: 1;
   }
 }
+
 /********************   Animation formating end **********************/
 
 /********************  Identical instructions start **********************/
 
 .header__head,
 .page-link,
+.hero-content,
 .services-content {
   background: #202020;
 }
@@ -250,7 +252,8 @@ ul {
 }
 
 .hero-content__tBox,
-.about-content__tBox {
+.about-content__tBox,
+.sales-content__elem {
   border-radius: 1.5em;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   padding: 2.5em 2em;
@@ -316,14 +319,22 @@ ul {
 
 /********************  Hero formating start **********************/
 
+.hero-content {
+  padding-top: 3.5em;
+}
+
 .hero-content__img {
   width: 85%;
+  box-shadow: 0 13px 40px -3px #fff;
+  border-top-right-radius: 4em;
+  border-bottom-right-radius: 4em;
 }
 
 .hero-content__tBox {
   width: 35em;
-  bottom: 3em;
+  bottom: 5em;
   right: 5em;
+  animation: slideInFromBottom 1s ease-out forwards;
 }
 
 .hero-content__tBox__p {
@@ -334,7 +345,7 @@ ul {
 
 /********************  Services formating start **********************/
 .services-content {
-  padding: 9em 5em 5em 5em;
+  padding: 13em 5em 5em 5em;
   margin-top: -6em;
 }
 
@@ -372,7 +383,7 @@ ul {
 
 .about-content {
   background: #f7f7f7;
-  padding: 3em 0 3em 5em;
+  padding: 3em 0 11em 5em;
 }
 
 .about-content__box {
@@ -388,15 +399,31 @@ ul {
 }
 
 .about-content__tBox {
-  width: 45em;
+  width: 41em;
   top: 6em;
+}
+
+.about-content__tBox__linkBox {
+  margin-top: 1.5em;
 }
 
 /********************  About formating end **********************/
 
-/********************  Blog formating start **********************/
+/********************  Sales formating start **********************/
 
-/********************  Blog formating end **********************/
+.sales-content {
+  padding: 0em 5em 0 5em;
+}
+
+.sales-content__elem__linkBox {
+  padding: 5em 0 1.3em 0;
+}
+
+.sales-content__elem {
+  margin-top: -8em;
+}
+
+/********************  Sales formating end **********************/
 
 /********************  Footer formating start **********************/
 

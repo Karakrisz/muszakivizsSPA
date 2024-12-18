@@ -181,11 +181,27 @@
           legfontosabb. Bízunk benne, hogy hamarosan Önt is ügyfeleink között
           köszönthetjük!
         </p>
-        <NuxtLink
-          to="/"
-          class="about-content__tBox__link page-link text-color-w"
-          >Tudjon meg többet rólunk</NuxtLink
-        >
+        <div class="about-content__tBox__linkBox">
+          <NuxtLink
+            to="/"
+            class="about-content__tBox__link page-link text-color-w"
+            >Tudjon meg többet rólunk</NuxtLink
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="sales-content bg-color-w">
+      <div class="sales-content__elem text-center position-relative bg-color-w">
+        <h5 class="sales-content__elem__h5">ÁRLISTA</h5>
+        <div class="sales-content__elem__linkBox bg-color-w">
+          <NuxtLink
+            to="/"
+            class="about-content__tBox__link page-link text-color-w"
+            >Sales link</NuxtLink
+          >
+        </div>
       </div>
     </div>
   </section>
