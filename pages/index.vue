@@ -26,7 +26,9 @@
   </section>
   <section>
     <div class="services-content">
-      <h2 class="text-transform-uppercase text-color-w">Szolgáltatásaink</h2>
+      <h2 class="services-content__h2 text-transform-uppercase text-color-w">
+        Szolgáltatásaink
+      </h2>
       <div class="services-content__iTbox d-flex">
         <NuxtImg
           src="/img/body/services/muszaki.svg"
@@ -164,7 +166,9 @@
         />
       </div>
       <div class="about-content__tBox position-absolute bg-color-w">
-        <h4 class="about-content__tBox__h4 text-transform-uppercase">Rólunk</h4>
+        <h4 class="about-content__tBox__h4 text-transform-uppercase m-0">
+          Rólunk
+        </h4>
         <p class="about-content__tBox__p">
           Több mint 66 éve segítjük az autósokat megbízható és professzionális
           szolgáltatásokkal. Szervizünk minden járműtípust fogad, legyen szó
@@ -203,6 +207,16 @@
           >
         </div>
       </div>
+    </div>
+  </section>
+  <section>
+    <div class="time-content">
+      <NuxtImg
+        src="/img/body/time.jpg"
+        alt="Műszaki vizsgáztatás"
+        class="about-content__iBox__img"
+        height="100%"
+      />
     </div>
   </section>
 </template>
