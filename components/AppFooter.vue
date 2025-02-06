@@ -73,7 +73,7 @@ const sendEmail = async () => {
       </div>
       <div class="footer-content__form bg-color-w">
         <h6
-          class="footer-content__form__h6 text-transform-uppercase text-center"
+          class="footer-content__form__h6 text-transform-uppercase text-center f-700"
         >
           KAPCSOLAT
         </h6>
@@ -85,7 +85,7 @@ const sendEmail = async () => {
               id="name"
               v-model="form.name"
               required
-              class="footer-content__form__elem__div__input"
+              class="footer-content__form__elem__div__input f-300"
             />
           </div>
           <div class="footer-content__form__elem__div">
@@ -95,7 +95,7 @@ const sendEmail = async () => {
               id="email"
               v-model="form.email"
               required
-              class="footer-content__form__elem__div__input"
+              class="footer-content__form__elem__div__input f-300"
             />
           </div>
           <div class="footer-content__form__elem__div">
@@ -105,7 +105,7 @@ const sendEmail = async () => {
               v-model="form.phonenumber"
               required
               placeholder="TELEFONSZÁM"
-              class="footer-content__form__elem__div__input"
+              class="footer-content__form__elem__div__input f-300"
             />
           </div>
           <div

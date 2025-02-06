@@ -1,7 +1,7 @@
 <script setup>
 const links = [
   { name: 'Főoldal', path: '/' },
-  { name: 'Rólunk', path: '/szolgaltatasok' },
+  { name: 'Rólunk', path: '/rolunk' },
   { name: 'Szolgáltatások', path: '/szolgaltatasok' },
   { name: 'Ajánlatkérés', path: '/ajanlatkeres' },
   { name: 'Kapcsolat', path: '/kapcsolat' },

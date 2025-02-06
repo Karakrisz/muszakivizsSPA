@@ -10,7 +10,7 @@
       />
 
       <div class="hero-content__tBox position-absolute bg-color-w">
-        <h1 class="hero-content__tBox__h1 text-transform-uppercase">
+        <h1 class="hero-content__tBox__h1 text-transform-uppercase f-700">
           Profi csapat, gördülékeny ügyintézés, garantált nyugalom.
         </h1>
         <p class="hero-content__tBox__p">
@@ -26,7 +26,7 @@
   </section>
   <section>
     <div class="services-content">
-      <h2 class="services-content__h2 text-transform-uppercase text-color-w">
+      <h2 class="services-content__h2 text-transform-uppercase text-color-w f-700">
         Szolgáltatásaink
       </h2>
       <div class="services-content__iTbox d-flex">
@@ -38,7 +38,7 @@
         />
 
         <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
             Műszaki vizsgáztatás
           </h3>
           <p class="services-content__iTbox__iBox__p text-color-w m-0">
@@ -57,7 +57,7 @@
         />
 
         <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
             Előzetes átvizsgálás és felkészítés
           </h3>
           <p class="services-content__iTbox__iBox__p text-color-w m-0">
@@ -76,7 +76,7 @@
         />
 
         <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
             Eredetiségvizsgálat
           </h3>
           <p class="services-content__iTbox__iBox__p text-color-w m-0">
@@ -94,7 +94,7 @@
         />
 
         <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
             Teljes körű ügyintézés
           </h3>
           <p class="services-content__iTbox__iBox__p text-color-w m-0">
@@ -112,7 +112,7 @@
         />
 
         <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
             Márkafüggetlen szervizelés
           </h3>
           <p class="services-content__iTbox__iBox__p text-color-w m-0">
@@ -130,7 +130,7 @@
         />
 
         <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w">
+          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
             Biztosításkötés
           </h3>
           <p class="services-content__iTbox__iBox__p text-color-w m-0">
@@ -166,7 +166,7 @@
         />
       </div>
       <div class="about-content__tBox position-absolute bg-color-w">
-        <h4 class="about-content__tBox__h4 text-transform-uppercase m-0">
+        <h4 class="about-content__tBox__h4 text-transform-uppercase m-0 f-700">
           Rólunk
         </h4>
         <p class="about-content__tBox__p">
@@ -198,7 +198,7 @@
   <section>
     <div class="sales-content bg-color-w">
       <div class="sales-content__elem text-center position-relative bg-color-w">
-        <h5 class="sales-content__elem__h5">BLOG</h5>
+        <h5 class="sales-content__elem__h5 f-700">BLOG</h5>
         <div class="sales-content__elem__linkBox bg-color-w">
           <p class="sales-content__elem__linkBox__p">
             Feltöltés folyamatban...
@@ -210,7 +210,7 @@
   <section>
     <div class="time-content d-flex">
       <div class="time-content__box">
-        <h6 class="time-content__h6 text-color-w text-transform-uppercase">
+        <h6 class="time-content__h6 text-color-w text-transform-uppercase f-700">
           Hozd az autód, mi a megoldást hozzuk!
         </h6>
         <NuxtLink
