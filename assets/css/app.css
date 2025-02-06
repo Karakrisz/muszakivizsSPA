@@ -231,10 +231,10 @@ ul {
     transform: translateY(100%) rotate(1.5deg);
     opacity: 0;
   }
-  100% {
+  /*   100% {
     transform: translateY(0) rotate(1.5deg);
     opacity: 1;
-  }
+  } */
 }
 
 /********************   Animation formating end **********************/
@@ -269,7 +269,7 @@ ul {
 }
 
 .sales-content {
-  padding: 0em 5em 0 5em;
+  padding: 1.7em 5em 5em 5em;
 }
 
 .footer-content__map__iframe {
@@ -295,7 +295,7 @@ ul {
 
 .contact-form__link-box__text-box__btn__img {
   width: 1.3em;
-  top: .3em;
+  top: 0.3em;
 }
 
 .page-next-link,
@@ -355,10 +355,11 @@ ul {
 
 .menu__item {
   padding-left: 2.5em;
+  font-size: 1rem;
 }
 
 .menu__list__li__img {
-  width: 45%;
+  width: 53%;
 }
 
 /********************  Header formating end **********************/
@@ -400,8 +401,8 @@ ul {
 }
 
 .services-content__iTbox__img {
-  width: 6em;
-  height: 6em;
+  width: 7em;
+  height: 7em;
   border-radius: 0.5em;
   padding: 1em;
 }
@@ -467,6 +468,30 @@ ul {
 
 /********************  Sales formating end **********************/
 
+/********************  Time formating start **********************/
+
+.time-content {
+  background-image: url('/img/time.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  justify-content: end;
+  padding: 0 5em 0 0;
+}
+
+.time-content__box {
+  width: 40em;
+  text-align: end;
+}
+
+.time-content__h6 {
+  font-size: 3rem;
+  margin: 0 0 0.5em;
+}
+
+/********************  Time formating end **********************/
+
 /********************  Footer formating start **********************/
 
 .footer-content {
@@ -529,15 +554,83 @@ ul {
 }
 
 @media (min-width: 1500px) and (max-width: 1600px) {
+  .services-content__h2,
+  .about-content__tBox__h4,
+  .sales-content__elem__h5,
+  .footer-content__form__h6 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 1400px) and (max-width: 1500px) {
+  .services-content__h2,
+  .about-content__tBox__h4,
+  .sales-content__elem__h5,
+  .footer-content__form__h6 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
+  .header__head {
+    padding: 1em 8em;
+  }
+  .header__head-item {
+    font-size: 0.8rem;
+  }
+  .menu__list__li__img {
+    width: 47%;
+  }
+  .services-content__h2,
+  .about-content__tBox__h4,
+  .sales-content__elem__h5,
+  .footer-content__form__h6 {
+    font-size: 1.3rem;
+  }
+  .page-link {
+    font-size: 1rem;
+  }
+  .time-content__h6 {
+    font-size: 2.7rem;
+    margin: 0 0 0.5em;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
+  .header__head {
+    padding: 1em 4em;
+  }
+  .header__head-item {
+    font-size: 0.75rem;
+  }
+  .menu__item {
+    font-size: 0.9rem;
+  }
+  .menu__list__li__img {
+    width: 47%;
+  }
+  .services-content__h2,
+  .about-content__tBox__h4,
+  .sales-content__elem__h5,
+  .footer-content__form__h6 {
+    font-size: 1.3rem;
+  }
+  .services-content__iTbox__iBox__h3 {
+    font-size: 1.2rem;
+  }
+  .services-content__iTbox__img {
+    width: 6em;
+    height: 6em;
+  }
+  .about-content {
+    padding: 3em 0 13em 5em;
+  }
+  .sales-content {
+    padding: 3.5em 5em 5em 5em;
+  }
+  .time-content__h6 {
+    font-size: 2.7rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

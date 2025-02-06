@@ -69,7 +69,7 @@
       </div>
       <div class="services-content__iTbox d-flex">
         <NuxtImg
-          src="/img/body/services/eredet.svg"
+          src="/img/body/services/biztositas.svg"
           alt="Műszaki vizsgáztatás"
           class="services-content__iTbox__img bg-color-w"
           height="100%"
@@ -210,7 +210,17 @@
     </div>
   </section>
   <section>
-    <div class="time-content">
+    <div class="time-content d-flex">
+      <div class="time-content__box">
+        <h6 class="time-content__h6 text-color-w text-transform-uppercase">
+          Hozd az autód, mi a megoldást hozzuk!
+        </h6>
+        <NuxtLink
+          to="/"
+          class="time-content__link page-next-link bg-color-w text-color"
+          >Időpontot kérek</NuxtLink
+        >
+      </div>
     </div>
   </section>
 </template>
