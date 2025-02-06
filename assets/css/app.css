@@ -561,6 +561,11 @@ ul {
   margin-top: 0;
 }
 
+.about-content--subpage-next-format {
+  padding-bottom: 1em !important;
+  padding-top: 6em !important;
+  padding-right: 5em !important;
+}
 /********************  Subpage formating formating end **********************/
 
 /********************  Media formating start **********************/
@@ -1229,6 +1234,9 @@ ul {
   .about-content {
     padding: 3em 0 20em 4em;
   }
+  .about-content--subpage-format {
+    padding-bottom: 4em !important;
+  }
   .time-content {
     height: 50vh;
   }
@@ -1432,6 +1440,12 @@ ul {
     padding: 0 0 10em 0;
     flex-direction: column;
   }
+  .about-content--subpage-next-format {
+    padding-bottom: 1em !important;
+    padding-top: 2em !important;
+    padding-right: 3em !important;
+    padding-left: 3em !important;
+  }
   .about-content__tBox {
     width: 90%;
     top: 0;
@@ -1445,6 +1459,14 @@ ul {
     width: 100%;
     margin: 2em 0;
     padding-left: 2em;
+    height: 50vh;
+  }
+  .about-content--subpage-format {
+    padding-top: 0em !important;
+  }
+  .about-content__tBox--subape-format {
+    top: 0 !important;
+    margin-bottom: 3em;
   }
   .time-content {
     padding: 0 2.3em 0 0;
