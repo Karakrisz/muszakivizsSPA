@@ -67,7 +67,6 @@ const sendEmail = async () => {
           class="footer-content__map__iframe"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.6591298521457!2d19.088576276429006!3d47.53549897118344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dbbcd6ed9dcb%3A0x7ce99223f051c6e0!2zTcWxc3pha2kgdml6c2fDoXp0YXTDoXMgfCA0IFTDtmxneWVzaSBBdXTDs2phdsOtdMOzIEtmdC4!5e0!3m2!1shu!2shu!4v1737049538093!5m2!1shu!2shu"
           style="border: 0"
-          allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
@@ -116,7 +115,7 @@ const sendEmail = async () => {
             <button
               type="submit"
               aria-label="submit"
-              class="contact-form__link-box__text-box__btn page-link text-color-w cursor"
+              class="contact-form__link-box__text-box__btn d-flex page-link text-color-w cursor"
             >
               Küldés
               <NuxtImg

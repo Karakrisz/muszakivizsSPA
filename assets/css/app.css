@@ -180,6 +180,7 @@ ul {
   padding: 0.7em 1.5em;
   box-shadow: 0 4px 30px -3px #202020;
   transition: all 0.5s ease;
+  width: max-content;
 }
 
 .page-link:hover {
@@ -294,13 +295,14 @@ ul {
   font-size: 1.5rem;
 }
 
-.page-link {
+.page-link,
+.page-next-link {
   font-size: 1.1rem;
 }
 
 .contact-form__link-box__text-box__btn__img {
   width: 1.3em;
-  top: 0.3em;
+  margin-left: 0.3em;
 }
 
 .page-next-link,
@@ -662,13 +664,13 @@ ul {
   }
   .hamburger,
   .menu {
-    background-color: #001647;
+    background-color: #202020;
   }
   .menu {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 300px;
+    width: 50%;
     height: 100%;
     transition: right 0.7s ease;
     z-index: 1000;
@@ -745,7 +747,7 @@ ul {
     top: -2.3%;
   }
   .menu__list__li__img {
-    width: 70%;
+    width: 1.7em;
   }
   .menu__item {
     font-size: 1rem;
@@ -787,6 +789,9 @@ ul {
   .about-content {
     padding: 3em 0 20em 4em;
   }
+  .time-content {
+    height: 50vh;
+  }
   .footer-content {
     flex-direction: column;
     padding: 0em 5em 2em 5em;
@@ -806,6 +811,17 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
+  .hero-content__tBox,
+  .about-content__tBox,
+  .sales-content__elem,
+  .footer-content__map__iframe,
+  .footer-content__form {
+  }
+  .page-next-link,
+  .contact-form__link-box__text-box {
+    width: 100%;
+    margin: auto;
+  }
   .menu__item {
     font-weight: 600;
   }
@@ -829,13 +845,13 @@ ul {
   }
   .hamburger,
   .menu {
-    background-color: #001647;
+    background-color: #202020;
   }
   .menu {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 300px;
+    width: 60%;
     height: 100%;
     transition: right 0.7s ease;
     z-index: 1000;
@@ -888,7 +904,7 @@ ul {
     flex-direction: column;
   }
   .header-content__logo-box__link__img {
-    width: 17em;
+    width: 7em;
   }
   .grid-3,
   .grid-7 {
@@ -912,26 +928,55 @@ ul {
     top: -2.3%;
   }
   .menu__list__li__img {
-    width: 70%;
+    width: 1.7em;
   }
   .menu__item {
     font-size: 1rem;
   }
+
   .flex-wrap {
     flex-wrap: wrap;
   }
   .header-content__logo-box {
     text-align: end;
   }
+  .header__head {
+    padding: 1em 3em;
+  }
+  .header__head-item {
+    font-size: 0.8rem;
+    justify-content: start;
+    padding: 0.5em 0;
+    flex: 1 0 50%;
+  }
+  .header__head-item__img {
+    width: 1.5em;
+    margin-right: 0.5em;
+  }
+  .hero-content__tBox__h1 {
+    font-size: 1.2rem;
+  }
   .hero-content__img {
-    height: 30em;
+    height: 50vh;
     object-fit: cover;
+    width: 85%;
   }
   .hero-content__tBox {
-    right: 3em;
+    right: 0;
+    position: relative;
+    width: 90%;
+    margin: auto;
   }
   .services-content__iTbox {
-    padding: 2.5em 2em 0 2em;
+    padding: 2.5em 0 0 0;
+    flex-direction: column;
+  }
+  .services-content {
+    padding: 0em 3em 3em 3em;
+    margin: 0;
+  }
+  .services-content__iTbox__img {
+    margin-bottom: 2em;
   }
   .services-content__h2,
   .about-content__tBox__h4,
@@ -940,23 +985,48 @@ ul {
     font-size: 1.4rem;
   }
   .about-content {
-    padding: 3em 0 20em 4em;
+    padding: 0 0 10em 0;
+    flex-direction: column;
+  }
+  .about-content__tBox {
+    width: 90%;
+    top: 0;
+    position: relative;
+    margin: auto;
+  }
+  .about-content__iBox {
+    width: 100%;
+  }
+  .about-content__iBox__img {
+    width: 100%;
+    margin: 2em 0;
+    padding-left: 2em;
+  }
+  .time-content {
+    padding: 0 2.3em 0 0;
+    height: 50vh;
+  }
+  .time-content__h6 {
+    font-size: 1.6rem;
+    margin: 0 0 1em 0em;
+  }
+  .sales-content {
+    padding: 1.7em 2em 2em 2em;
   }
   .footer-content {
     flex-direction: column;
-    padding: 0em 5em 2em 5em;
+    padding: 0;
   }
   .footer-content__map {
     width: 100%;
     margin-right: 0;
   }
   .footer-content__form {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 2.5em;
+    width: 90%;
+    margin: 1em auto;
   }
   .footer-brand-content__img {
-    width: 20%;
+    width: 13em;
   }
 }
 

@@ -18,7 +18,7 @@
           mi leveszünk minden terhet a válladról. Te hozd az autót, mi hozzuk a
           megoldást!
         </p>
-        <NuxtLink to="/" class="hero-content__tBox__link page-link text-color-w"
+        <NuxtLink to="/" class="hero-content__tBox__link d-flex page-link text-color-w"
           >Ajánlatkérés</NuxtLink
         >
       </div>
@@ -188,7 +188,7 @@
         <div class="about-content__tBox__linkBox">
           <NuxtLink
             to="/"
-            class="about-content__tBox__link page-link text-color-w"
+            class="about-content__tBox__link d-flex page-link text-color-w"
             >Tudjon meg többet rólunk</NuxtLink
           >
         </div>
@@ -198,13 +198,11 @@
   <section>
     <div class="sales-content bg-color-w">
       <div class="sales-content__elem text-center position-relative bg-color-w">
-        <h5 class="sales-content__elem__h5">ÁRLISTA</h5>
+        <h5 class="sales-content__elem__h5">BLOG</h5>
         <div class="sales-content__elem__linkBox bg-color-w">
-          <NuxtLink
-            to="/"
-            class="about-content__tBox__link page-link text-color-w"
-            >Sales link</NuxtLink
-          >
+          <p class="sales-content__elem__linkBox__p">
+            Feltöltés folyamatban...
+          </p>
         </div>
       </div>
     </div>
