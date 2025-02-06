@@ -7,7 +7,7 @@
         alt="Műszaki vizsgáztatás"
         class="hero-content__img"
         width="1920"
-        height="808"
+        height="100vh"
         format="webp"
         sizes="100vw"
       />
