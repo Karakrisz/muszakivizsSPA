@@ -211,12 +211,6 @@
   </section>
   <section>
     <div class="time-content">
-      <NuxtImg
-        src="/img/body/time.jpg"
-        alt="Műszaki vizsgáztatás"
-        class="about-content__iBox__img"
-        height="100%"
-      />
     </div>
   </section>
 </template>
