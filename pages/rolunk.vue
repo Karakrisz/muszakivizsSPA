@@ -18,7 +18,9 @@ useHead({
           height="100%"
         />
       </div>
-      <div class="about-content__tBox position-absolute bg-color-w">
+      <div
+        class="about-content__tBox about-content__tBox--subape-format position-absolute bg-color-w"
+      >
         <h4 class="about-content__tBox__h4 text-transform-uppercase m-0 f-700">
           Rólunk
         </h4>

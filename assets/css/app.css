@@ -457,7 +457,7 @@ ul {
 
 .about-content__tBox {
   width: 41em;
-  top: 8.5em;
+  top: 6.5em;
 }
 
 .about-content__tBox__linkBox {
@@ -501,14 +501,6 @@ ul {
 }
 
 /********************  Time formating end **********************/
-
-/********************  Subpage formating start **********************/
-
-.about-content--subpage-format {
-  padding-bottom: 0;
-  padding-top: 5em;
-}
-/********************  Subpage formating end **********************/
 
 /********************  Footer formating start **********************/
 
@@ -558,6 +550,15 @@ ul {
 .about-content--subpage-format {
   padding-bottom: 0 !important;
   padding-top: 5em !important;
+}
+
+.about-content__tBox--subape-format {
+  top: 8.5em !important;
+}
+
+.services-content--subpage-format {
+  padding-top: 5em !important;
+  margin-top: 0;
 }
 
 /********************  Subpage formating formating end **********************/
