@@ -13,7 +13,7 @@ const isMenuOpen = ref(false)
 
 <template>
   <header class="header">
-    <div class="header__head d-flex">
+    <div class="header__head d-flex flex-wrap">
       <a class="header__head-item header__head-item--phone text-color-w d-flex">
         <NuxtImg
           src="/img/header/mobile.svg"
