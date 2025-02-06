@@ -1411,7 +1411,7 @@ ul {
   .hero-content__img {
     height: 50vh;
     object-fit: cover;
-    width: 85%;
+    width: 100%;
   }
   .hero-content__tBox {
     right: 0;

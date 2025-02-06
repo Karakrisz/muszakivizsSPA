@@ -7,8 +7,8 @@
         src="/img/body/hero.webp"
         alt="Műszaki vizsgáztatás"
         class="hero-content__img"
-        width="100%"
-        height="100%"
+        width="1920"
+        height="100vh"
         format="webp"
       />
 
