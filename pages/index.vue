@@ -7,9 +7,10 @@
         src="/img/body/hero.webp"
         alt="Műszaki vizsgáztatás"
         class="hero-content__img"
-        width="1920"
-        height="100vh"
-        format="webp"
+        :srcset="[
+          '/img/body/hero.webp 1920w',
+          '/img/body/hero.webp 100w'
+        ]"
       />
 
       <div class="hero-content__tBox position-absolute bg-color-w">
