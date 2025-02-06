@@ -9,7 +9,6 @@
         width="1920"
         height="100vh"
         format="webp"
-        sizes="100vw"
       />
 
       <div class="hero-content__tBox position-absolute bg-color-w">
