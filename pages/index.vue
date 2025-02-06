@@ -6,6 +6,10 @@
         src="/img/body/hero.svg"
         alt="Műszaki vizsgáztatás"
         class="hero-content__img"
+        width="1920"
+        height="100vh"
+        format="svg"
+        sizes="100vw"
       />
 
       <div class="hero-content__tBox position-absolute bg-color-w">
