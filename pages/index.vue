@@ -3,12 +3,9 @@
   <section>
     <div class="hero-content position-relative">
       <NuxtImg
-        src="/img/body/hero.webp"
+        src="/img/body/hero.svg"
         alt="Műszaki vizsgáztatás"
         class="hero-content__img"
-        width="1920"
-        height="100vh"
-        format="webp"
       />
 
       <div class="hero-content__tBox position-absolute bg-color-w">
