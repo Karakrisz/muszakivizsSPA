@@ -1,15 +1,15 @@
 <script setup lang="ts"></script>
 <template>
   <section>
+    <!-- sizes="100vw" -->
     <div class="hero-content position-relative">
       <NuxtImg
-        src="/img/body/hero.svg"
+        src="/img/body/hero.webp"
         alt="Műszaki vizsgáztatás"
         class="hero-content__img"
         width="100%"
         height="100%"
-        format="svg"
-        sizes="100vw"
+        format="webp"
       />
 
       <div class="hero-content__tBox position-absolute bg-color-w">
