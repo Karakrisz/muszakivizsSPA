@@ -350,7 +350,9 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {},
+  "public": {
+    "apiBaseUrl": "https://api.muszakivizsgaztatas.hu"
+  },
   "sitemap": {
     "isI18nMapped": false,
     "sitemapName": "sitemap.xml",
@@ -1001,6 +1003,8 @@ function publicAssetsURL(...path) {
   const publicBase = app.cdnURL || app.baseURL;
   return path.length ? joinRelativeURL(publicBase, ...path) : publicBase;
 }
+
+const defineSitemapEventHandler = defineEventHandler;
 
 function normalizeSiteConfig(config) {
   if (typeof config.indexable !== "undefined")
@@ -2259,9 +2263,11 @@ const _L4nrZU = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
+const _lazy_qFDskB = () => Promise.resolve().then(function () { return sitemap$1; });
 const _lazy_2d6rxn = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
+  { route: '/api/sitemap', handler: _lazy_qFDskB, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_2d6rxn, lazy: true, middleware: false, method: undefined },
   { route: '', handler: _Q5sEfn, lazy: false, middleware: true, method: undefined },
   { route: '/__site-config__/debug.json', handler: _LQMJqT, lazy: false, middleware: false, method: undefined },
@@ -2495,40 +2501,19 @@ const sources$1 = [
                 "loc": "/ajanlatkeres"
             },
             {
-                "loc": "/dokumentumok"
-            },
-            {
-                "loc": "/gepjarmu-biztositas"
-            },
-            {
                 "loc": "/"
             },
             {
                 "loc": "/kapcsolat"
             },
             {
-                "loc": "/karbejentes"
-            },
-            {
-                "loc": "/partnerek"
-            },
-            {
-                "loc": "/rendezvenyszolgalat"
+                "loc": "/posts"
             },
             {
                 "loc": "/rolunk"
             },
             {
-                "loc": "/szemelyes-tanacsadas"
-            },
-            {
                 "loc": "/szolgaltatasok"
-            },
-            {
-                "loc": "/tanulobiztositas"
-            },
-            {
-                "loc": "/utasbiztositas"
             }
         ],
         "sourceType": "app"
@@ -2545,6 +2530,32 @@ const sources = {};
 const childSources = /*#__PURE__*/Object.freeze({
   __proto__: null,
   sources: sources
+});
+
+const sitemap = defineSitemapEventHandler(async (e) => {
+  try {
+    const response = await fetch(
+      "https://api.nszvtakaritas.hu/json-posts"
+    );
+    if (!response.ok) {
+      throw new Error("Failed to fetch posts");
+    }
+    const posts = await response.json();
+    return posts.map((post) => {
+      return {
+        loc: `/posts/${post.slug}`,
+        lastmod: post.modifiedAt ? new Date(post.modifiedAt).toISOString() : new Date(post.created_at).toISOString()
+      };
+    });
+  } catch (error) {
+    console.error("Error fetching posts for sitemap:", error);
+    return [];
+  }
+});
+
+const sitemap$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: sitemap
 });
 
 const Vue3 = version[0] === "3";
