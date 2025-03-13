@@ -166,24 +166,6 @@ const sendEmail = async () => {
           </p>
         </div>
       </div>
-      <div class="services-content__iTbox d-flex">
-        <NuxtImg
-          src="/img/body/services/biztositas.svg"
-          alt="Műszaki vizsgáztatás"
-          class="services-content__iTbox__img bg-color-w"
-          height="100%"
-        />
-
-        <div class="services-content__iTbox__iBox">
-          <h3 class="services-content__iTbox__iBox__h3 text-color-w f-600">
-            Biztosításkötés
-          </h3>
-          <p class="services-content__iTbox__iBox__p text-color-w m-0">
-            Segítünk a biztosításkötésben is, hogy mindent egy helyen
-            elintézhess, és időt spórolhass.
-          </p>
-        </div>
-      </div>
       <div class="services-content__linkBox">
         <NuxtLink
           to="/szolgaltatasok"
