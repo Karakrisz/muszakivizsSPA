@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Műszaki vizsgáztatás',
+      title: 'Műszaki vizsgáztatás - Műszaki vizsgáztatás Budapesten',
       htmlAttrs: {
         lang: 'hu',
       },
