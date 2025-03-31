@@ -187,7 +187,7 @@ const _joaPCVjW5Q = (function(nitro) {
 
 const rootDir = "/Applications/XAMPP/xamppfiles/htdocs/muszakivizsSPA";
 
-const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Ne maradjon le a gyors és kényelmes műszaki vizsgáztatásról Budapesten! Több száz elégedett ügyféllel és profi csapatunkkal garantáljuk a zökkenőmentes ügyintézést. Foglaljon időpontot még ma!"},{"name":"format-detection","content":"telephone=no"},{"hid":"robots","name":"robots","content":"index, follow"},{"http-equiv":"Content-Security-Policy","content":"\n            default-src 'self' https: data:;\n            img-src 'self' https: http: data:;\n            font-src 'self' https: data:;\n            style-src 'self' https: 'unsafe-inline';\n            script-src 'self' https: 'unsafe-inline' 'unsafe-eval';\n          "}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"},{"rel":"canonical","href":"https://www.alkuszom.info"},{"rel":"preconnect","href":"https://fonts.googleapis.com"},{"rel":"preconnect","href":"https://fonts.gstatic.com"},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"}],"style":[],"script":[],"noscript":[],"title":"Műszaki vizsgáztatás","htmlAttrs":{"lang":"hu"}};
+const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Ne maradjon le a gyors és kényelmes műszaki vizsgáztatásról Budapesten! Több száz elégedett ügyféllel és profi csapatunkkal garantáljuk a zökkenőmentes ügyintézést. Foglaljon időpontot még ma!"},{"name":"format-detection","content":"telephone=no"},{"hid":"robots","name":"robots","content":"index, follow"},{"http-equiv":"Content-Security-Policy","content":"\n            default-src 'self' https: data:;\n            img-src 'self' https: http: data:;\n            font-src 'self' https: data:;\n            style-src 'self' https: 'unsafe-inline';\n            script-src 'self' https: 'unsafe-inline' 'unsafe-eval';\n          "}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"},{"rel":"canonical","href":"https://www.alkuszom.info"},{"rel":"preconnect","href":"https://fonts.googleapis.com"},{"rel":"preconnect","href":"https://fonts.gstatic.com"},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"}],"style":[],"script":[],"noscript":[],"title":"Műszaki vizsgáztatás - Műszaki vizsgáztatás Budapesten","htmlAttrs":{"lang":"hu"}};
 
 const appRootTag = "div";
 
@@ -337,7 +337,13 @@ const _inlineRuntimeConfig = {
           "Content-Type": "application/xslt+xml"
         }
       },
-      "/sitemap.xml": {},
+      "/sitemap.xml": {
+        "headers": {
+          "Content-Type": "text/xml; charset=UTF-8",
+          "Cache-Control": "public, max-age=600, must-revalidate",
+          "X-Sitemap-Prerendered": "2025-03-31T11:18:36.908Z"
+        }
+      },
       "/_nuxt/builds/meta/**": {
         "headers": {
           "cache-control": "public, max-age=31536000, immutable"
@@ -2478,6 +2484,10 @@ const errorDev = /*#__PURE__*/Object.freeze({
 
 const sources$1 = [
     {
+        "sourceType": "user",
+        "fetch": "/api/sitemap"
+    },
+    {
         "context": {
             "name": "sitemap:urls",
             "description": "Set with the `sitemap.urls` config."
@@ -2535,7 +2545,7 @@ const childSources = /*#__PURE__*/Object.freeze({
 const sitemap = defineSitemapEventHandler(async (e) => {
   try {
     const response = await fetch(
-      "https://api.nszvtakaritas.hu/json-posts"
+      "https://api.muszakivizsgaztatas.hu/json-posts"
     );
     if (!response.ok) {
       throw new Error("Failed to fetch posts");
