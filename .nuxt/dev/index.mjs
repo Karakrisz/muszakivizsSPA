@@ -341,7 +341,7 @@ const _inlineRuntimeConfig = {
         "headers": {
           "Content-Type": "text/xml; charset=UTF-8",
           "Cache-Control": "public, max-age=600, must-revalidate",
-          "X-Sitemap-Prerendered": "2025-03-31T11:18:36.908Z"
+          "X-Sitemap-Prerendered": "2025-05-22T18:39:26.660Z"
         }
       },
       "/_nuxt/builds/meta/**": {

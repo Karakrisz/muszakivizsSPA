@@ -4,38 +4,6 @@ import { fetchPosts, truncateContent } from '~/utils/js/utils'
 const itemsPost = await fetchPosts()
 const latestPosts = itemsPost.value?.slice(-3) || []
 
-import { useNuxtApp } from '#app'
-const nuxtApp = useNuxtApp()
-
-const form = ref({
-  name: '',
-  email: '',
-  phonenumber: '',
-  message: '',
-})
-
-const isSent = ref(false)
-
-const sendEmail = async () => {
-  try {
-    await nuxtApp.$mail.send({
-      from: 'info@nszvtakaritas.hu',
-      to: 'nszvtakaritas@gmail.com',
-      subject: `Új üzenetet küldött - ${form.value.name}`,
-      html: `
-        <p><strong>Name:</strong> ${form.value.name}</p>
-        <p><strong>Email:</strong> ${form.value.email}</p>
-        <p><strong>Phone Number:</strong> ${form.value.phonenumber}</p>
-        <p><strong>Message:</strong></p>
-        <p>${form.value.message}</p>
-      `,
-    })
-    isSent.value = true
-  } catch (error) {
-    console.error('Error sending email:', error)
-    alert('Failed to send email.')
-  }
-}
 </script>
 <template>
   <section>

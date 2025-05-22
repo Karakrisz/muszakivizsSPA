@@ -185,11 +185,11 @@ ul {
 }
 
 .page-link:hover {
-  background: #fff;
+  background: #fb9d2f;
   padding: 0.7em 1.5em;
   box-shadow: 0;
-  color: #202020;
-  border: 2px solid #202020;
+  color: #fff;
+  border: 2px solid #fb9d2f;
 }
 
 .page-next-link {
@@ -201,11 +201,11 @@ ul {
 }
 
 .page-next-link:hover {
-  background: #202020;
+  background: #fb9d2f;
   padding: 0.7em 1.5em;
   box-shadow: 0;
   color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #fb9d2f;
 }
 
 .page-next-link:hover .services-content__linkBox__link__img {
@@ -576,6 +576,14 @@ ul {
 
 .contact-form__link-box__text-box {
   padding: 2em 0 7em 0;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.contact-form__link-box__text-box__p {
+  text-align: left;
+  margin-bottom: 1.5em;
 }
 
 .footer-brand-content {
