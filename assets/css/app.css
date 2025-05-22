@@ -586,6 +586,11 @@ ul {
   margin-bottom: 1.5em;
 }
 
+.contact-form__link-box__text-box__p__link {
+  color: #fb9d2f;
+  text-decoration: underline;
+}
+
 .footer-brand-content {
   background: #fb9d2f;
   padding: 1em 0;
@@ -1430,6 +1435,9 @@ hr {
     font-size: 1rem;
     line-height: 1.5em;
   }
+  .footer-content--subapage {
+    padding: 2em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1690,6 +1698,10 @@ hr {
   .subpage-content.blog .services-content__iTbox__iBox__h3 {
     font-size: 1rem;
     line-height: 1.5em;
+  }
+
+  .footer-content--subapage {
+    padding: 2em;
   }
 }
 

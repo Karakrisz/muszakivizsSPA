@@ -83,7 +83,12 @@ const sendEmail = async () => {
             class="contact-form__link-box__text-box text-center d-flex"
           >
             <p class="contact-form__link-box__text-box__p">
-              A küldés gombra kattintva elfogadja az Adatkezelési Tájékoztatót
+              A küldés gombra kattintva elfogadja az
+              <a
+                class="contact-form__link-box__text-box__p__link"
+                href="/adatvedelmi-tajekoztato"
+                >Adatkezelési Tájékoztatót</a
+              >
             </p>
             <button
               type="submit"
