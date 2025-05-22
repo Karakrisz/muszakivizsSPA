@@ -84,10 +84,10 @@ const sendEmail = async () => {
           >
             <p class="contact-form__link-box__text-box__p">
               A küldés gombra kattintva elfogadja az
-              <a
+              <NuxtLink
                 class="contact-form__link-box__text-box__p__link"
-                href="/adatvedelmi-tajekoztato"
-                >Adatkezelési Tájékoztatót</a
+                to="/adatvedelmi-tajekoztato"
+                >Adatkezelési Tájékoztatót</NuxtLink
               >
             </p>
             <button
