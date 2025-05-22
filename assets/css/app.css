@@ -635,6 +635,7 @@ ul {
   color: #202020;
   width: max-content;
   padding: 0.3em 1em;
+  margin-bottom: 2em;
 }
 
 .subpage-content.blog {
