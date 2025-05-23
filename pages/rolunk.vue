@@ -25,7 +25,7 @@ useHead({
           Rólunk
         </h4>
         <p class="about-content__tBox__p">
-          Több mint 66 éve segítjük az autósokat megbízható és professzionális
+          Több mint 77 éve segítjük az autósokat megbízható és professzionális
           szolgáltatásokkal. Szervizünk minden járműtípust fogad, legyen szó
           műszaki vizsgáztatásról, eredetiségvizsgálatról, kisebb javításokról
           vagy komolyabb szerelésekről. 15 fős szakértői csapatunk elkötelezett
